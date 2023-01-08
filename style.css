@@ -27,3 +27,5 @@ box-sizing: border-box;
 #resultcalculate:hover {background-color: rgb(66, 251, 106);}
 #delete {background-color: orange;}
 #delete:hover {background-color: rgb(247, 185, 70);}
+#deleteall {background-color: red;}
+#deleteall:hover {background-color: rgb(245, 143, 143);}

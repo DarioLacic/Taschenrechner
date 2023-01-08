@@ -28,6 +28,11 @@ function deleteLast(){
     let container =document.getElementById("resultArea");
 container.innerHTML = (container.innerHTML.slice(0, -1));
 }
+function deleteAll(){
+    let container =document.getElementById("resultArea");
+container.innerHTML = (container.innerHTML.slice(0, -1000000));
+}
+
 </script>
 
 
@@ -39,11 +44,17 @@ container.innerHTML = (container.innerHTML.slice(0, -1));
 
         <table>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+    <td onclick="appendOperation('(')">(</td>
+    <td onclick="appendOperation(')')">)</td>
+<td onclick = "deleteAll()" id = "deleteall">DEA</td>
 <td onclick = "deleteLast()" id = "delete">DEL</td>
+
 </tr>
+
+   
+    
+
+
             <tr>
                 <td onclick="appendOperation(7)">7</td>
                 <td onclick="appendOperation(8)">8</td>

@@ -23,9 +23,9 @@ padding: 24px
 ;
 box-sizing: border-box;
 }
-#resultcalculate{background-color: rgba(0, 255, 38, 0.744);}
-#resultcalculate:hover {background-color: rgb(66, 251, 106);}
-#delete {background-color: orange;}
-#delete:hover {background-color: rgb(247, 185, 70);}
+#resultcalculate{background-color: rgba(13, 0, 255, 0.744);}
+#resultcalculate:hover {background-color: rgb(66, 125, 251);}
+#delete {background-color: rgb(47, 0, 255);}
+#delete:hover {background-color: rgb(97, 70, 247);}
 #deleteall {background-color: rgb(255, 0, 0);}
 #deleteall:hover {background-color: rgb(245, 143, 143);}
